@@ -19,6 +19,11 @@ cases:
       dreamerer
     out: |
       NO
+  - name: custom1
+    in: |
+      dreamerase
+    out: |
+      YES
 
 extend:
   - type: Text
