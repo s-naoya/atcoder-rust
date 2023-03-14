@@ -31,8 +31,8 @@ cases:
       5
       2
 
-extend:
-  - type: Text
-    path: "./b11"
-    in: /in/*.txt
-    out: /out/*.txt
+# extend:
+#   - type: Text
+#     path: "./b11"
+#     in: /in/*.txt
+#     out: /out/*.txt
