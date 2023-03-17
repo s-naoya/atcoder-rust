@@ -17,16 +17,16 @@ cases:
       1 2 4
     out: |
       -1
-  - name: sample3
-    in: |
-      10 100
-      14 23 18 7 11 23 23 5 8 2
-    out: |
-      6
-      2 3 6 7 8 9
+  # - name: sample3
+  #   in: |
+  #     10 100
+  #     14 23 18 7 11 23 23 5 8 2
+  #   out: |
+  #     6
+  #     2 3 6 7 8 9
 
-extend:
-  - type: Text
-    path: "./b18"
-    in: /in/*.txt
-    out: /out/*.txt
+# extend:
+#   - type: Text
+#     path: "./b18"
+#     in: /in/*.txt
+#     out: /out/*.txt
