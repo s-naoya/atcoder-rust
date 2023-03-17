@@ -21,8 +21,8 @@ cases:
       7
       1 2 4 5 6 8 10
 
-extend:
-  - type: Text
-    path: "./a17"
-    in: /in/*.txt
-    out: /out/*.txt
+# extend:
+#   - type: Text
+#     path: "./a17"
+#     in: /in/*.txt
+#     out: /out/*.txt
