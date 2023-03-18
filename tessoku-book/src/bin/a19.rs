@@ -1,3 +1,4 @@
+use itertools::enumerate;
 use proconio::input;
 fn main() {
     input! {
@@ -6,13 +7,14 @@ fn main() {
     }
     let mut dp: Vec<Vec<i64>> = vec![vec![-1_000_000_000_000_000; w + 1]; n + 1];
     dp[0][0] = 0;
-    for i in 1..=n {
+    // for i in 1..=n {
+    for (i, wv) in enumerate(wv) {
         for j in 0..=w {
             // println!("{} {} {:?}", i, j, dp[i]);
-            dp[i][j] = if j < wv[i - 1].0 {
-                dp[i - 1][j]
+            dp[i + 1][j] = if j < wv.0 {
+                dp[i][j]
             } else {
-                std::cmp::max(dp[i - 1][j], dp[i - 1][j - wv[i - 1].0] + wv[i - 1].1)
+                std::cmp::max(dp[i][j], dp[i][j - wv.0] + wv.1)
             }
         }
     }
