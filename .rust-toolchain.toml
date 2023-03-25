@@ -1,0 +1,4 @@
+# macで1.42.0はビルドできない
+# [toolchain]
+# channel = "1.42.0"
+# components = ["rustfmt", "clippy"]
