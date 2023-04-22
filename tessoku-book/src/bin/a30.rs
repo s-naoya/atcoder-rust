@@ -32,10 +32,10 @@ fn main() {
     println!("{}", ans);
 }
 
-fn power(a: u64, b: u64, m: u64) -> u64 {
-    let mut ans = 1;
-    for i in 1..=b {
-        ans = (ans * a) % m;
-    }
-    ans
-}
+// fn power(a: u64, b: u64, m: u64) -> u64 {
+//     let mut ans = 1;
+//     for i in 1..=b {
+//         ans = (ans * a) % m;
+//     }
+//     ans
+// }
