@@ -1,0 +1,9 @@
+{
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.check.extraArgs": [
+        "--target-dir",
+        "${workspaceFolder}/target/check"
+    ],
+    "rust-analyzer.check.noDefaultFeatures": null
+}
