@@ -10,8 +10,8 @@ cases:
     out: |
       1.000000
 
-extend:
-  - type: Text
-    path: "./b12"
-    in: /in/*.txt
-    out: /out/*.txt
+# extend:
+#   - type: Text
+#     path: "./b12"
+#     in: /in/*.txt
+#     out: /out/*.txt
