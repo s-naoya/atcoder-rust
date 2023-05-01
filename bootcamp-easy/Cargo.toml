@@ -1,0 +1,549 @@
+[package]
+name = "bootcamp-easy"
+version = "0.1.0"
+edition = "2018"
+
+[package.metadata.cargo-compete.bin]
+bootcamp-easy-1 = { alias = "1", problem = "https://atcoder.jp/contests/abc139/tasks/abc139_b" }
+bootcamp-easy-2 = { alias = "2", problem = "https://atcoder.jp/contests/abc156/tasks/abc156_c" }
+bootcamp-easy-3 = { alias = "3", problem = "https://atcoder.jp/contests/code-festival-2016-qualb/tasks/codefestival_2016_qualB_b" }
+bootcamp-easy-4 = { alias = "4", problem = "https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_b" }
+bootcamp-easy-5 = { alias = "5", problem = "https://atcoder.jp/contests/abc121/tasks/abc121_b" }
+bootcamp-easy-6 = { alias = "6", problem = "https://atcoder.jp/contests/panasonic2020/tasks/panasonic2020_b" }
+bootcamp-easy-7 = { alias = "7", problem = "https://atcoder.jp/contests/abc157/tasks/abc157_b" }
+bootcamp-easy-8 = { alias = "8", problem = "https://atcoder.jp/contests/abc086/tasks/abc086_b" }
+bootcamp-easy-9 = { alias = "9", problem = "https://atcoder.jp/contests/abc074/tasks/abc074_b" }
+bootcamp-easy-10 = { alias = "10", problem = "https://atcoder.jp/contests/abc088/tasks/abc088_b" }
+bootcamp-easy-11 = { alias = "11", problem = "https://atcoder.jp/contests/abc068/tasks/abc068_b" }
+bootcamp-easy-12 = { alias = "12", problem = "https://atcoder.jp/contests/abc160/tasks/abc160_c" }
+bootcamp-easy-13 = { alias = "13", problem = "https://atcoder.jp/contests/agc014/tasks/agc014_a" }
+bootcamp-easy-14 = { alias = "14", problem = "https://atcoder.jp/contests/abc161/tasks/abc161_c" }
+bootcamp-easy-15 = { alias = "15", problem = "https://atcoder.jp/contests/abc132/tasks/abc132_c" }
+bootcamp-easy-16 = { alias = "16", problem = "https://atcoder.jp/contests/abc142/tasks/abc142_c" }
+bootcamp-easy-17 = { alias = "17", problem = "https://atcoder.jp/contests/abc138/tasks/abc138_c" }
+bootcamp-easy-18 = { alias = "18", problem = "https://atcoder.jp/contests/abc122/tasks/abc122_b" }
+bootcamp-easy-19 = { alias = "19", problem = "https://atcoder.jp/contests/abc094/tasks/abc094_b" }
+bootcamp-easy-20 = { alias = "20", problem = "https://atcoder.jp/contests/abc116/tasks/abc116_b" }
+bootcamp-easy-21 = { alias = "21", problem = "https://atcoder.jp/contests/abc149/tasks/abc149_c" }
+bootcamp-easy-22 = { alias = "22", problem = "https://atcoder.jp/contests/agc027/tasks/agc027_a" }
+bootcamp-easy-23 = { alias = "23", problem = "https://atcoder.jp/contests/abc092/tasks/abc092_b" }
+bootcamp-easy-24 = { alias = "24", problem = "https://atcoder.jp/contests/hitachi2020/tasks/hitachi2020_b" }
+bootcamp-easy-25 = { alias = "25", problem = "https://atcoder.jp/contests/abc150/tasks/abc150_c" }
+bootcamp-easy-26 = { alias = "26", problem = "https://atcoder.jp/contests/abc153/tasks/abc153_d" }
+bootcamp-easy-27 = { alias = "27", problem = "https://atcoder.jp/contests/abc158/tasks/abc158_b" }
+bootcamp-easy-28 = { alias = "28", problem = "https://atcoder.jp/contests/abc081/tasks/abc081_b" }
+bootcamp-easy-29 = { alias = "29", problem = "https://atcoder.jp/contests/abc114/tasks/abc114_b" }
+bootcamp-easy-30 = { alias = "30", problem = "https://atcoder.jp/contests/abc108/tasks/abc108_b" }
+bootcamp-easy-31 = { alias = "31", problem = "https://atcoder.jp/contests/abc063/tasks/abc063_b" }
+bootcamp-easy-32 = { alias = "32", problem = "https://atcoder.jp/contests/abc052/tasks/abc052_b" }
+bootcamp-easy-33 = { alias = "33", problem = "https://atcoder.jp/contests/abc084/tasks/abc084_b" }
+bootcamp-easy-34 = { alias = "34", problem = "https://atcoder.jp/contests/abc087/tasks/abc087_b" }
+bootcamp-easy-35 = { alias = "35", problem = "https://atcoder.jp/contests/abc071/tasks/abc071_b" }
+bootcamp-easy-36 = { alias = "36", problem = "https://atcoder.jp/contests/abc127/tasks/abc127_c" }
+bootcamp-easy-37 = { alias = "37", problem = "https://atcoder.jp/contests/abc141/tasks/abc141_c" }
+bootcamp-easy-38 = { alias = "38", problem = "https://atcoder.jp/contests/abc123/tasks/abc123_b" }
+bootcamp-easy-39 = { alias = "39", problem = "https://atcoder.jp/contests/abc134/tasks/abc134_c" }
+bootcamp-easy-40 = { alias = "40", problem = "https://atcoder.jp/contests/agc002/tasks/agc002_a" }
+bootcamp-easy-41 = { alias = "41", problem = "https://atcoder.jp/contests/abc152/tasks/abc152_c" }
+bootcamp-easy-42 = { alias = "42", problem = "https://atcoder.jp/contests/abc118/tasks/abc118_b" }
+bootcamp-easy-43 = { alias = "43", problem = "https://atcoder.jp/contests/abc044/tasks/abc044_b" }
+bootcamp-easy-44 = { alias = "44", problem = "https://atcoder.jp/contests/abc124/tasks/abc124_c" }
+bootcamp-easy-45 = { alias = "45", problem = "https://atcoder.jp/contests/abc090/tasks/abc090_b" }
+bootcamp-easy-46 = { alias = "46", problem = "https://atcoder.jp/contests/agc024/tasks/agc024_a" }
+bootcamp-easy-47 = { alias = "47", problem = "https://atcoder.jp/contests/abc079/tasks/abc079_b" }
+bootcamp-easy-48 = { alias = "48", problem = "https://atcoder.jp/contests/abc139/tasks/abc139_c" }
+bootcamp-easy-49 = { alias = "49", problem = "https://atcoder.jp/contests/abc062/tasks/abc062_b" }
+bootcamp-easy-50 = { alias = "50", problem = "https://atcoder.jp/contests/abc059/tasks/abc059_b" }
+bootcamp-easy-51 = { alias = "51", problem = "https://atcoder.jp/contests/abc083/tasks/abc083_b" }
+bootcamp-easy-52 = { alias = "52", problem = "https://atcoder.jp/contests/abc140/tasks/abc140_c" }
+bootcamp-easy-53 = { alias = "53", problem = "https://atcoder.jp/contests/abc061/tasks/abc061_b" }
+bootcamp-easy-54 = { alias = "54", problem = "https://atcoder.jp/contests/abc109/tasks/abc109_b" }
+bootcamp-easy-55 = { alias = "55", problem = "https://atcoder.jp/contests/abc133/tasks/abc133_b" }
+bootcamp-easy-56 = { alias = "56", problem = "https://atcoder.jp/contests/abc093/tasks/abc093_b" }
+bootcamp-easy-57 = { alias = "57", problem = "https://atcoder.jp/contests/abc158/tasks/abc158_c" }
+bootcamp-easy-58 = { alias = "58", problem = "https://atcoder.jp/contests/abc113/tasks/abc113_b" }
+bootcamp-easy-59 = { alias = "59", problem = "https://atcoder.jp/contests/abc104/tasks/abc104_b" }
+bootcamp-easy-60 = { alias = "60", problem = "https://atcoder.jp/contests/abc050/tasks/abc050_b" }
+bootcamp-easy-61 = { alias = "61", problem = "https://atcoder.jp/contests/abc103/tasks/abc103_b" }
+bootcamp-easy-62 = { alias = "62", problem = "https://atcoder.jp/contests/abc049/tasks/abc049_b" }
+bootcamp-easy-63 = { alias = "63", problem = "https://atcoder.jp/contests/abc148/tasks/abc148_d" }
+bootcamp-easy-64 = { alias = "64", problem = "https://atcoder.jp/contests/abc058/tasks/abc058_b" }
+bootcamp-easy-65 = { alias = "65", problem = "https://atcoder.jp/contests/abc053/tasks/abc053_b" }
+bootcamp-easy-66 = { alias = "66", problem = "https://atcoder.jp/contests/agc003/tasks/agc003_a" }
+bootcamp-easy-67 = { alias = "67", problem = "https://atcoder.jp/contests/abc155/tasks/abc155_c" }
+bootcamp-easy-68 = { alias = "68", problem = "https://atcoder.jp/contests/abc128/tasks/abc128_b" }
+bootcamp-easy-69 = { alias = "69", problem = "https://atcoder.jp/contests/agc037/tasks/agc037_a" }
+bootcamp-easy-70 = { alias = "70", problem = "https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_c" }
+bootcamp-easy-71 = { alias = "71", problem = "https://atcoder.jp/contests/abc042/tasks/abc042_b" }
+bootcamp-easy-72 = { alias = "72", problem = "https://atcoder.jp/contests/abc097/tasks/abc097_b" }
+bootcamp-easy-73 = { alias = "73", problem = "https://atcoder.jp/contests/agc021/tasks/agc021_a" }
+bootcamp-easy-74 = { alias = "74", problem = "https://atcoder.jp/contests/abc095/tasks/arc096_a" }
+bootcamp-easy-75 = { alias = "75", problem = "https://atcoder.jp/contests/abc115/tasks/abc115_c" }
+bootcamp-easy-76 = { alias = "76", problem = "https://atcoder.jp/contests/abc151/tasks/abc151_c" }
+bootcamp-easy-77 = { alias = "77", problem = "https://atcoder.jp/contests/agc012/tasks/agc012_a" }
+bootcamp-easy-78 = { alias = "78", problem = "https://atcoder.jp/contests/abc136/tasks/abc136_c" }
+bootcamp-easy-79 = { alias = "79", problem = "https://atcoder.jp/contests/agc041/tasks/agc041_a" }
+bootcamp-easy-80 = { alias = "80", problem = "https://atcoder.jp/contests/abc144/tasks/abc144_c" }
+bootcamp-easy-81 = { alias = "81", problem = "https://atcoder.jp/contests/abc100/tasks/abc100_c" }
+bootcamp-easy-82 = { alias = "82", problem = "https://atcoder.jp/contests/agc019/tasks/agc019_a" }
+bootcamp-easy-83 = { alias = "83", problem = "https://atcoder.jp/contests/abc087/tasks/arc090_a" }
+bootcamp-easy-84 = { alias = "84", problem = "https://atcoder.jp/contests/abc135/tasks/abc135_c" }
+bootcamp-easy-85 = { alias = "85", problem = "https://atcoder.jp/contests/abc100/tasks/abc100_b" }
+bootcamp-easy-86 = { alias = "86", problem = "https://atcoder.jp/contests/abc106/tasks/abc106_c" }
+bootcamp-easy-87 = { alias = "87", problem = "https://atcoder.jp/contests/abc103/tasks/abc103_c" }
+bootcamp-easy-88 = { alias = "88", problem = "https://atcoder.jp/contests/abc091/tasks/abc091_b" }
+bootcamp-easy-89 = { alias = "89", problem = "https://atcoder.jp/contests/abc083/tasks/arc088_a" }
+bootcamp-easy-90 = { alias = "90", problem = "https://atcoder.jp/contests/abc055/tasks/abc055_b" }
+bootcamp-easy-91 = { alias = "91", problem = "https://atcoder.jp/contests/abc145/tasks/abc145_c" }
+bootcamp-easy-92 = { alias = "92", problem = "https://atcoder.jp/contests/abc120/tasks/abc120_c" }
+bootcamp-easy-93 = { alias = "93", problem = "https://atcoder.jp/contests/ddcc2020-qual/tasks/ddcc2020_qual_b" }
+bootcamp-easy-94 = { alias = "94", problem = "https://atcoder.jp/contests/abc079/tasks/abc079_c" }
+bootcamp-easy-95 = { alias = "95", problem = "https://atcoder.jp/contests/abc093/tasks/arc094_a" }
+bootcamp-easy-96 = { alias = "96", problem = "https://atcoder.jp/contests/code-festival-2017-qualc/tasks/code_festival_2017_qualc_b" }
+bootcamp-easy-97 = { alias = "97", problem = "https://atcoder.jp/contests/abc121/tasks/abc121_c" }
+bootcamp-easy-98 = { alias = "98", problem = "https://atcoder.jp/contests/agc004/tasks/agc004_a" }
+bootcamp-easy-99 = { alias = "99", problem = "https://atcoder.jp/contests/abc046/tasks/abc046_b" }
+bootcamp-easy-100 = { alias = "100", problem = "https://atcoder.jp/contests/code-festival-2016-quala/tasks/codefestival_2016_qualA_b" }
+
+[[bin]]
+name = "bootcamp-easy-1"
+path = "src/bin/1.rs"
+
+[[bin]]
+name = "bootcamp-easy-2"
+path = "src/bin/2.rs"
+
+[[bin]]
+name = "bootcamp-easy-3"
+path = "src/bin/3.rs"
+
+[[bin]]
+name = "bootcamp-easy-4"
+path = "src/bin/4.rs"
+
+[[bin]]
+name = "bootcamp-easy-5"
+path = "src/bin/5.rs"
+
+[[bin]]
+name = "bootcamp-easy-6"
+path = "src/bin/6.rs"
+
+[[bin]]
+name = "bootcamp-easy-7"
+path = "src/bin/7.rs"
+
+[[bin]]
+name = "bootcamp-easy-8"
+path = "src/bin/8.rs"
+
+[[bin]]
+name = "bootcamp-easy-9"
+path = "src/bin/9.rs"
+
+[[bin]]
+name = "bootcamp-easy-10"
+path = "src/bin/10.rs"
+
+[[bin]]
+name = "bootcamp-easy-11"
+path = "src/bin/11.rs"
+
+[[bin]]
+name = "bootcamp-easy-12"
+path = "src/bin/12.rs"
+
+[[bin]]
+name = "bootcamp-easy-13"
+path = "src/bin/13.rs"
+
+[[bin]]
+name = "bootcamp-easy-14"
+path = "src/bin/14.rs"
+
+[[bin]]
+name = "bootcamp-easy-15"
+path = "src/bin/15.rs"
+
+[[bin]]
+name = "bootcamp-easy-16"
+path = "src/bin/16.rs"
+
+[[bin]]
+name = "bootcamp-easy-17"
+path = "src/bin/17.rs"
+
+[[bin]]
+name = "bootcamp-easy-18"
+path = "src/bin/18.rs"
+
+[[bin]]
+name = "bootcamp-easy-19"
+path = "src/bin/19.rs"
+
+[[bin]]
+name = "bootcamp-easy-20"
+path = "src/bin/20.rs"
+
+[[bin]]
+name = "bootcamp-easy-21"
+path = "src/bin/21.rs"
+
+[[bin]]
+name = "bootcamp-easy-22"
+path = "src/bin/22.rs"
+
+[[bin]]
+name = "bootcamp-easy-23"
+path = "src/bin/23.rs"
+
+[[bin]]
+name = "bootcamp-easy-24"
+path = "src/bin/24.rs"
+
+[[bin]]
+name = "bootcamp-easy-25"
+path = "src/bin/25.rs"
+
+[[bin]]
+name = "bootcamp-easy-26"
+path = "src/bin/26.rs"
+
+[[bin]]
+name = "bootcamp-easy-27"
+path = "src/bin/27.rs"
+
+[[bin]]
+name = "bootcamp-easy-28"
+path = "src/bin/28.rs"
+
+[[bin]]
+name = "bootcamp-easy-29"
+path = "src/bin/29.rs"
+
+[[bin]]
+name = "bootcamp-easy-30"
+path = "src/bin/30.rs"
+
+[[bin]]
+name = "bootcamp-easy-31"
+path = "src/bin/31.rs"
+
+[[bin]]
+name = "bootcamp-easy-32"
+path = "src/bin/32.rs"
+
+[[bin]]
+name = "bootcamp-easy-33"
+path = "src/bin/33.rs"
+
+[[bin]]
+name = "bootcamp-easy-34"
+path = "src/bin/34.rs"
+
+[[bin]]
+name = "bootcamp-easy-35"
+path = "src/bin/35.rs"
+
+[[bin]]
+name = "bootcamp-easy-36"
+path = "src/bin/36.rs"
+
+[[bin]]
+name = "bootcamp-easy-37"
+path = "src/bin/37.rs"
+
+[[bin]]
+name = "bootcamp-easy-38"
+path = "src/bin/38.rs"
+
+[[bin]]
+name = "bootcamp-easy-39"
+path = "src/bin/39.rs"
+
+[[bin]]
+name = "bootcamp-easy-40"
+path = "src/bin/40.rs"
+
+[[bin]]
+name = "bootcamp-easy-41"
+path = "src/bin/41.rs"
+
+[[bin]]
+name = "bootcamp-easy-42"
+path = "src/bin/42.rs"
+
+[[bin]]
+name = "bootcamp-easy-43"
+path = "src/bin/43.rs"
+
+[[bin]]
+name = "bootcamp-easy-44"
+path = "src/bin/44.rs"
+
+[[bin]]
+name = "bootcamp-easy-45"
+path = "src/bin/45.rs"
+
+[[bin]]
+name = "bootcamp-easy-46"
+path = "src/bin/46.rs"
+
+[[bin]]
+name = "bootcamp-easy-47"
+path = "src/bin/47.rs"
+
+[[bin]]
+name = "bootcamp-easy-48"
+path = "src/bin/48.rs"
+
+[[bin]]
+name = "bootcamp-easy-49"
+path = "src/bin/49.rs"
+
+[[bin]]
+name = "bootcamp-easy-50"
+path = "src/bin/50.rs"
+
+[[bin]]
+name = "bootcamp-easy-51"
+path = "src/bin/51.rs"
+
+[[bin]]
+name = "bootcamp-easy-52"
+path = "src/bin/52.rs"
+
+[[bin]]
+name = "bootcamp-easy-53"
+path = "src/bin/53.rs"
+
+[[bin]]
+name = "bootcamp-easy-54"
+path = "src/bin/54.rs"
+
+[[bin]]
+name = "bootcamp-easy-55"
+path = "src/bin/55.rs"
+
+[[bin]]
+name = "bootcamp-easy-56"
+path = "src/bin/56.rs"
+
+[[bin]]
+name = "bootcamp-easy-57"
+path = "src/bin/57.rs"
+
+[[bin]]
+name = "bootcamp-easy-58"
+path = "src/bin/58.rs"
+
+[[bin]]
+name = "bootcamp-easy-59"
+path = "src/bin/59.rs"
+
+[[bin]]
+name = "bootcamp-easy-60"
+path = "src/bin/60.rs"
+
+[[bin]]
+name = "bootcamp-easy-61"
+path = "src/bin/61.rs"
+
+[[bin]]
+name = "bootcamp-easy-62"
+path = "src/bin/62.rs"
+
+[[bin]]
+name = "bootcamp-easy-63"
+path = "src/bin/63.rs"
+
+[[bin]]
+name = "bootcamp-easy-64"
+path = "src/bin/64.rs"
+
+[[bin]]
+name = "bootcamp-easy-65"
+path = "src/bin/65.rs"
+
+[[bin]]
+name = "bootcamp-easy-66"
+path = "src/bin/66.rs"
+
+[[bin]]
+name = "bootcamp-easy-67"
+path = "src/bin/67.rs"
+
+[[bin]]
+name = "bootcamp-easy-68"
+path = "src/bin/68.rs"
+
+[[bin]]
+name = "bootcamp-easy-69"
+path = "src/bin/69.rs"
+
+[[bin]]
+name = "bootcamp-easy-70"
+path = "src/bin/70.rs"
+
+[[bin]]
+name = "bootcamp-easy-71"
+path = "src/bin/71.rs"
+
+[[bin]]
+name = "bootcamp-easy-72"
+path = "src/bin/72.rs"
+
+[[bin]]
+name = "bootcamp-easy-73"
+path = "src/bin/73.rs"
+
+[[bin]]
+name = "bootcamp-easy-74"
+path = "src/bin/74.rs"
+
+[[bin]]
+name = "bootcamp-easy-75"
+path = "src/bin/75.rs"
+
+[[bin]]
+name = "bootcamp-easy-76"
+path = "src/bin/76.rs"
+
+[[bin]]
+name = "bootcamp-easy-77"
+path = "src/bin/77.rs"
+
+[[bin]]
+name = "bootcamp-easy-78"
+path = "src/bin/78.rs"
+
+[[bin]]
+name = "bootcamp-easy-79"
+path = "src/bin/79.rs"
+
+[[bin]]
+name = "bootcamp-easy-80"
+path = "src/bin/80.rs"
+
+[[bin]]
+name = "bootcamp-easy-81"
+path = "src/bin/81.rs"
+
+[[bin]]
+name = "bootcamp-easy-82"
+path = "src/bin/82.rs"
+
+[[bin]]
+name = "bootcamp-easy-83"
+path = "src/bin/83.rs"
+
+[[bin]]
+name = "bootcamp-easy-84"
+path = "src/bin/84.rs"
+
+[[bin]]
+name = "bootcamp-easy-85"
+path = "src/bin/85.rs"
+
+[[bin]]
+name = "bootcamp-easy-86"
+path = "src/bin/86.rs"
+
+[[bin]]
+name = "bootcamp-easy-87"
+path = "src/bin/87.rs"
+
+[[bin]]
+name = "bootcamp-easy-88"
+path = "src/bin/88.rs"
+
+[[bin]]
+name = "bootcamp-easy-89"
+path = "src/bin/89.rs"
+
+[[bin]]
+name = "bootcamp-easy-90"
+path = "src/bin/90.rs"
+
+[[bin]]
+name = "bootcamp-easy-91"
+path = "src/bin/91.rs"
+
+[[bin]]
+name = "bootcamp-easy-92"
+path = "src/bin/92.rs"
+
+[[bin]]
+name = "bootcamp-easy-93"
+path = "src/bin/93.rs"
+
+[[bin]]
+name = "bootcamp-easy-94"
+path = "src/bin/94.rs"
+
+[[bin]]
+name = "bootcamp-easy-95"
+path = "src/bin/95.rs"
+
+[[bin]]
+name = "bootcamp-easy-96"
+path = "src/bin/96.rs"
+
+[[bin]]
+name = "bootcamp-easy-97"
+path = "src/bin/97.rs"
+
+[[bin]]
+name = "bootcamp-easy-98"
+path = "src/bin/98.rs"
+
+[[bin]]
+name = "bootcamp-easy-99"
+path = "src/bin/99.rs"
+
+[[bin]]
+name = "bootcamp-easy-100"
+path = "src/bin/100.rs"
+
+[dependencies]
+num = "=0.2.1"
+num-bigint = "=0.2.6"
+num-complex = "=0.2.4"
+num-integer = "=0.1.42"
+num-iter = "=0.1.40"
+num-rational = "=0.2.4"
+num-traits = "=0.2.11"
+num-derive = "=0.3.0"
+ndarray = "=0.13.0"
+nalgebra = "=0.20.0"
+alga = "=0.9.3"
+libm = "=0.2.1"
+rand = { version = "=0.7.3", features = ["small_rng"] }
+getrandom = "=0.1.14"
+rand_chacha = "=0.2.2"
+rand_core = "=0.5.1"
+rand_hc = "=0.2.0"
+rand_pcg = "=0.2.1"
+rand_distr = "=0.2.2"
+petgraph = "=0.5.0"
+indexmap = "=1.3.2"
+regex = "=1.3.6"
+lazy_static = "=1.4.0"
+ordered-float = "=1.0.2"
+ascii = "=1.0.0"
+permutohedron = "=0.2.4"
+superslice = "=1.0.0"
+itertools = "=0.9.0"
+itertools-num = "=0.1.3"
+maplit = "=1.0.2"
+either = "=1.5.3"
+im-rc = "=14.3.0"
+fixedbitset = "=0.2.0"
+bitset-fixed = "=0.1.0"
+proconio = { version = "=0.3.6", features = ["derive"] }
+text_io = "=0.1.8"
+whiteread = "=0.5.0"
+rustc-hash = "=1.1.0"
+smallvec = "=1.2.0"
+
+[dev-dependencies]
