@@ -1,3 +1,4 @@
 .DS_Store
 target/
 tessoku-book/testcases/*/etc
+tessoku-book/testcases/*.cpp
