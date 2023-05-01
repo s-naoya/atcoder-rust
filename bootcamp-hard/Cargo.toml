@@ -1,0 +1,551 @@
+[package]
+name = "bootcamp-hard"
+version = "0.1.0"
+edition = "2018"
+
+[package.metadata.cargo-compete.bin]
+bootcamp-hard-1 = { alias = "1", problem = "https://atcoder.jp/contests/abc136/tasks/abc136_d" }
+bootcamp-hard-2 = { alias = "2", problem = "https://atcoder.jp/contests/jsc2019-qual/tasks/jsc2019_qual_b" }
+bootcamp-hard-3 = { alias = "3", problem = "https://atcoder.jp/contests/agc043/tasks/agc043_a" }
+bootcamp-hard-4 = { alias = "4", problem = "https://atcoder.jp/contests/abc048/tasks/abc048_b" }
+bootcamp-hard-5 = { alias = "5", problem = "https://atcoder.jp/contests/abc141/tasks/abc141_d" }
+bootcamp-hard-6 = { alias = "6", problem = "https://atcoder.jp/contests/abc076/tasks/abc076_c" }
+bootcamp-hard-7 = { alias = "7", problem = "https://atcoder.jp/contests/abc127/tasks/abc127_d" }
+bootcamp-hard-8 = { alias = "8", problem = "https://atcoder.jp/contests/abc148/tasks/abc148_e" }
+bootcamp-hard-9 = { alias = "9", problem = "https://atcoder.jp/contests/abc054/tasks/abc054_b" }
+bootcamp-hard-10 = { alias = "10", problem = "https://atcoder.jp/contests/abc130/tasks/abc130_d" }
+bootcamp-hard-11 = { alias = "11", problem = "https://atcoder.jp/contests/abc142/tasks/abc142_d" }
+bootcamp-hard-12 = { alias = "12", problem = "https://atcoder.jp/contests/nikkei2019-2-qual/tasks/nikkei2019_2_qual_b" }
+bootcamp-hard-13 = { alias = "13", problem = "https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d" }
+bootcamp-hard-14 = { alias = "14", problem = "https://atcoder.jp/contests/abc057/tasks/abc057_c" }
+bootcamp-hard-15 = { alias = "15", problem = "https://atcoder.jp/contests/abc125/tasks/abc125_d" }
+bootcamp-hard-16 = { alias = "16", problem = "https://atcoder.jp/contests/abc160/tasks/abc160_d" }
+bootcamp-hard-17 = { alias = "17", problem = "https://atcoder.jp/contests/diverta2019/tasks/diverta2019_c" }
+bootcamp-hard-18 = { alias = "18", problem = "https://atcoder.jp/contests/abc051/tasks/abc051_c" }
+bootcamp-hard-19 = { alias = "19", problem = "https://atcoder.jp/contests/abc069/tasks/arc080_b" }
+bootcamp-hard-20 = { alias = "20", problem = "https://atcoder.jp/contests/abc113/tasks/abc113_c" }
+bootcamp-hard-21 = { alias = "21", problem = "https://atcoder.jp/contests/abc094/tasks/arc095_b" }
+bootcamp-hard-22 = { alias = "22", problem = "https://atcoder.jp/contests/abc110/tasks/abc110_c" }
+bootcamp-hard-23 = { alias = "23", problem = "https://atcoder.jp/contests/abc049/tasks/arc065_a" }
+bootcamp-hard-24 = { alias = "24", problem = "https://atcoder.jp/contests/keyence2020/tasks/keyence2020_b" }
+bootcamp-hard-25 = { alias = "25", problem = "https://atcoder.jp/contests/abc084/tasks/abc084_c" }
+bootcamp-hard-26 = { alias = "26", problem = "https://atcoder.jp/contests/code-festival-2016-qualc/tasks/codefestival_2016_qualC_b" }
+bootcamp-hard-27 = { alias = "27", problem = "https://atcoder.jp/contests/abc138/tasks/abc138_d" }
+bootcamp-hard-28 = { alias = "28", problem = "https://atcoder.jp/contests/abc107/tasks/arc101_a" }
+bootcamp-hard-29 = { alias = "29", problem = "https://atcoder.jp/contests/agc011/tasks/agc011_b" }
+bootcamp-hard-30 = { alias = "30", problem = "https://atcoder.jp/contests/agc018/tasks/agc018_a" }
+bootcamp-hard-31 = { alias = "31", problem = "https://atcoder.jp/contests/abc134/tasks/abc134_d" }
+bootcamp-hard-32 = { alias = "32", problem = "https://atcoder.jp/contests/abc052/tasks/arc067_a" }
+bootcamp-hard-33 = { alias = "33", problem = "https://atcoder.jp/contests/abc133/tasks/abc133_d" }
+bootcamp-hard-34 = { alias = "34", problem = "https://atcoder.jp/contests/abc050/tasks/arc066_a" }
+bootcamp-hard-35 = { alias = "35", problem = "https://atcoder.jp/contests/abc085/tasks/abc085_d" }
+bootcamp-hard-36 = { alias = "36", problem = "https://atcoder.jp/contests/agc036/tasks/agc036_a" }
+bootcamp-hard-37 = { alias = "37", problem = "https://atcoder.jp/contests/ddcc2020-qual/tasks/ddcc2020_qual_c" }
+bootcamp-hard-38 = { alias = "38", problem = "https://atcoder.jp/contests/abc151/tasks/abc151_d" }
+bootcamp-hard-39 = { alias = "39", problem = "https://atcoder.jp/contests/tenka1-2019/tasks/tenka1_2019_c" }
+bootcamp-hard-40 = { alias = "40", problem = "https://atcoder.jp/contests/code-festival-2017-qualc/tasks/code_festival_2017_qualc_c" }
+bootcamp-hard-41 = { alias = "41", problem = "https://atcoder.jp/contests/abc108/tasks/arc102_a" }
+bootcamp-hard-42 = { alias = "42", problem = "https://atcoder.jp/contests/abc064/tasks/abc064_d" }
+bootcamp-hard-43 = { alias = "43", problem = "https://atcoder.jp/contests/abc079/tasks/abc079_d" }
+bootcamp-hard-44 = { alias = "44", problem = "https://atcoder.jp/contests/abc147/tasks/abc147_c" }
+bootcamp-hard-45 = { alias = "45", problem = "https://atcoder.jp/contests/abc084/tasks/abc084_d" }
+bootcamp-hard-46 = { alias = "46", problem = "https://atcoder.jp/contests/agc005/tasks/agc005_a" }
+bootcamp-hard-47 = { alias = "47", problem = "https://atcoder.jp/contests/abc161/tasks/abc161_d" }
+bootcamp-hard-48 = { alias = "48", problem = "https://atcoder.jp/contests/abc153/tasks/abc153_e" }
+bootcamp-hard-49 = { alias = "49", problem = "https://atcoder.jp/contests/abc156/tasks/abc156_d" }
+bootcamp-hard-50 = { alias = "50", problem = "https://atcoder.jp/contests/abc088/tasks/abc088_d" }
+bootcamp-hard-51 = { alias = "51", problem = "https://atcoder.jp/contests/abc145/tasks/abc145_d" }
+bootcamp-hard-52 = { alias = "52", problem = "https://atcoder.jp/contests/abc112/tasks/abc112_d" }
+bootcamp-hard-53 = { alias = "53", problem = "https://atcoder.jp/contests/diverta2019-2/tasks/diverta2019_2_b" }
+bootcamp-hard-54 = { alias = "54", problem = "https://atcoder.jp/contests/abc160/tasks/abc160_e" }
+bootcamp-hard-55 = { alias = "55", problem = "https://atcoder.jp/contests/abc052/tasks/arc067_b" }
+bootcamp-hard-56 = { alias = "56", problem = "https://atcoder.jp/contests/apc001/tasks/apc001_b" }
+bootcamp-hard-57 = { alias = "57", problem = "https://atcoder.jp/contests/agc023/tasks/agc023_a" }
+bootcamp-hard-58 = { alias = "58", problem = "https://atcoder.jp/contests/diverta2019/tasks/diverta2019_d" }
+bootcamp-hard-59 = { alias = "59", problem = "https://atcoder.jp/contests/abc114/tasks/abc114_c" }
+bootcamp-hard-60 = { alias = "60", problem = "https://atcoder.jp/contests/abc152/tasks/abc152_d" }
+bootcamp-hard-61 = { alias = "61", problem = "https://atcoder.jp/contests/code-festival-2016-quala/tasks/codefestival_2016_qualA_c" }
+bootcamp-hard-62 = { alias = "62", problem = "https://atcoder.jp/contests/abc129/tasks/abc129_d" }
+bootcamp-hard-63 = { alias = "63", problem = "https://atcoder.jp/contests/arc058/tasks/arc058_a" }
+bootcamp-hard-64 = { alias = "64", problem = "https://atcoder.jp/contests/abc075/tasks/abc075_c" }
+bootcamp-hard-65 = { alias = "65", problem = "https://atcoder.jp/contests/abc053/tasks/arc068_b" }
+bootcamp-hard-66 = { alias = "66", problem = "https://atcoder.jp/contests/agc034/tasks/agc034_b" }
+bootcamp-hard-67 = { alias = "67", problem = "https://atcoder.jp/contests/abc115/tasks/abc115_d" }
+bootcamp-hard-68 = { alias = "68", problem = "https://atcoder.jp/contests/panasonic2020/tasks/panasonic2020_d" }
+bootcamp-hard-69 = { alias = "69", problem = "https://atcoder.jp/contests/tenka1-2018/tasks/tenka1_2018_c" }
+bootcamp-hard-70 = { alias = "70", problem = "https://atcoder.jp/contests/abc077/tasks/arc084_a" }
+bootcamp-hard-71 = { alias = "71", problem = "https://atcoder.jp/contests/abc102/tasks/arc100_a" }
+bootcamp-hard-72 = { alias = "72", problem = "https://atcoder.jp/contests/tenka1-2017/tasks/tenka1_2017_c" }
+bootcamp-hard-73 = { alias = "73", problem = "https://atcoder.jp/contests/abc099/tasks/abc099_c" }
+bootcamp-hard-74 = { alias = "74", problem = "https://atcoder.jp/contests/caddi2018b/tasks/caddi2018_b" }
+bootcamp-hard-75 = { alias = "75", problem = "https://atcoder.jp/contests/abc140/tasks/abc140_d" }
+bootcamp-hard-76 = { alias = "76", problem = "https://atcoder.jp/contests/abc045/tasks/arc061_a" }
+bootcamp-hard-77 = { alias = "77", problem = "https://atcoder.jp/contests/agc038/tasks/agc038_a" }
+bootcamp-hard-78 = { alias = "78", problem = "https://atcoder.jp/contests/abc097/tasks/arc097_a" }
+bootcamp-hard-79 = { alias = "79", problem = "https://atcoder.jp/contests/abc124/tasks/abc124_d" }
+bootcamp-hard-80 = { alias = "80", problem = "https://atcoder.jp/contests/abc090/tasks/arc091_b" }
+bootcamp-hard-81 = { alias = "81", problem = "https://atcoder.jp/contests/abc048/tasks/arc064_a" }
+bootcamp-hard-82 = { alias = "82", problem = "https://atcoder.jp/contests/nikkei2019-qual/tasks/nikkei2019_qual_c" }
+bootcamp-hard-83 = { alias = "83", problem = "https://atcoder.jp/contests/agc033/tasks/agc033_a" }
+bootcamp-hard-84 = { alias = "84", problem = "https://atcoder.jp/contests/abc080/tasks/abc080_c" }
+bootcamp-hard-85 = { alias = "85", problem = "https://atcoder.jp/contests/abc112/tasks/abc112_c" }
+bootcamp-hard-86 = { alias = "86", problem = "https://atcoder.jp/contests/abc071/tasks/arc081_b" }
+bootcamp-hard-87 = { alias = "87", problem = "https://atcoder.jp/contests/abc157/tasks/abc157_d" }
+bootcamp-hard-88 = { alias = "88", problem = "https://atcoder.jp/contests/abc121/tasks/abc121_d" }
+bootcamp-hard-89 = { alias = "89", problem = "https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_e" }
+bootcamp-hard-90 = { alias = "90", problem = "https://atcoder.jp/contests/abc126/tasks/abc126_d" }
+bootcamp-hard-91 = { alias = "91", problem = "https://atcoder.jp/contests/abc146/tasks/abc146_d" }
+bootcamp-hard-92 = { alias = "92", problem = "https://atcoder.jp/contests/agc014/tasks/agc014_b" }
+bootcamp-hard-93 = { alias = "93", problem = "https://atcoder.jp/contests/abc070/tasks/abc070_d" }
+bootcamp-hard-94 = { alias = "94", problem = "https://atcoder.jp/contests/abc132/tasks/abc132_d" }
+bootcamp-hard-95 = { alias = "95", problem = "https://atcoder.jp/contests/abc147/tasks/abc147_d" }
+bootcamp-hard-96 = { alias = "96", problem = "https://atcoder.jp/contests/abc109/tasks/abc109_d" }
+bootcamp-hard-97 = { alias = "97", problem = "https://atcoder.jp/contests/abc105/tasks/abc105_c" }
+bootcamp-hard-98 = { alias = "98", problem = "https://atcoder.jp/contests/code-festival-2017-quala/tasks/code_festival_2017_quala_c" }
+bootcamp-hard-99 = { alias = "99", problem = "https://atcoder.jp/contests/agc003/tasks/agc003_b" }
+bootcamp-hard-100 = { alias = "100", problem = "https://atcoder.jp/contests/apc001/tasks/apc001_c" }
+
+
+[[bin]]
+name = "bootcamp-hard-1"
+path = "src/bin/1.rs"
+
+[[bin]]
+name = "bootcamp-hard-2"
+path = "src/bin/2.rs"
+
+[[bin]]
+name = "bootcamp-hard-3"
+path = "src/bin/3.rs"
+
+[[bin]]
+name = "bootcamp-hard-4"
+path = "src/bin/4.rs"
+
+[[bin]]
+name = "bootcamp-hard-5"
+path = "src/bin/5.rs"
+
+[[bin]]
+name = "bootcamp-hard-6"
+path = "src/bin/6.rs"
+
+[[bin]]
+name = "bootcamp-hard-7"
+path = "src/bin/7.rs"
+
+[[bin]]
+name = "bootcamp-hard-8"
+path = "src/bin/8.rs"
+
+[[bin]]
+name = "bootcamp-hard-9"
+path = "src/bin/9.rs"
+
+[[bin]]
+name = "bootcamp-hard-10"
+path = "src/bin/10.rs"
+
+[[bin]]
+name = "bootcamp-hard-11"
+path = "src/bin/11.rs"
+
+[[bin]]
+name = "bootcamp-hard-12"
+path = "src/bin/12.rs"
+
+[[bin]]
+name = "bootcamp-hard-13"
+path = "src/bin/13.rs"
+
+[[bin]]
+name = "bootcamp-hard-14"
+path = "src/bin/14.rs"
+
+[[bin]]
+name = "bootcamp-hard-15"
+path = "src/bin/15.rs"
+
+[[bin]]
+name = "bootcamp-hard-16"
+path = "src/bin/16.rs"
+
+[[bin]]
+name = "bootcamp-hard-17"
+path = "src/bin/17.rs"
+
+[[bin]]
+name = "bootcamp-hard-18"
+path = "src/bin/18.rs"
+
+[[bin]]
+name = "bootcamp-hard-19"
+path = "src/bin/19.rs"
+
+[[bin]]
+name = "bootcamp-hard-20"
+path = "src/bin/20.rs"
+
+[[bin]]
+name = "bootcamp-hard-21"
+path = "src/bin/21.rs"
+
+[[bin]]
+name = "bootcamp-hard-22"
+path = "src/bin/22.rs"
+
+[[bin]]
+name = "bootcamp-hard-23"
+path = "src/bin/23.rs"
+
+[[bin]]
+name = "bootcamp-hard-24"
+path = "src/bin/24.rs"
+
+[[bin]]
+name = "bootcamp-hard-25"
+path = "src/bin/25.rs"
+
+[[bin]]
+name = "bootcamp-hard-26"
+path = "src/bin/26.rs"
+
+[[bin]]
+name = "bootcamp-hard-27"
+path = "src/bin/27.rs"
+
+[[bin]]
+name = "bootcamp-hard-28"
+path = "src/bin/28.rs"
+
+[[bin]]
+name = "bootcamp-hard-29"
+path = "src/bin/29.rs"
+
+[[bin]]
+name = "bootcamp-hard-30"
+path = "src/bin/30.rs"
+
+[[bin]]
+name = "bootcamp-hard-31"
+path = "src/bin/31.rs"
+
+[[bin]]
+name = "bootcamp-hard-32"
+path = "src/bin/32.rs"
+
+[[bin]]
+name = "bootcamp-hard-33"
+path = "src/bin/33.rs"
+
+[[bin]]
+name = "bootcamp-hard-34"
+path = "src/bin/34.rs"
+
+[[bin]]
+name = "bootcamp-hard-35"
+path = "src/bin/35.rs"
+
+[[bin]]
+name = "bootcamp-hard-36"
+path = "src/bin/36.rs"
+
+[[bin]]
+name = "bootcamp-hard-37"
+path = "src/bin/37.rs"
+
+[[bin]]
+name = "bootcamp-hard-38"
+path = "src/bin/38.rs"
+
+[[bin]]
+name = "bootcamp-hard-39"
+path = "src/bin/39.rs"
+
+[[bin]]
+name = "bootcamp-hard-40"
+path = "src/bin/40.rs"
+
+[[bin]]
+name = "bootcamp-hard-41"
+path = "src/bin/41.rs"
+
+[[bin]]
+name = "bootcamp-hard-42"
+path = "src/bin/42.rs"
+
+[[bin]]
+name = "bootcamp-hard-43"
+path = "src/bin/43.rs"
+
+[[bin]]
+name = "bootcamp-hard-44"
+path = "src/bin/44.rs"
+
+[[bin]]
+name = "bootcamp-hard-45"
+path = "src/bin/45.rs"
+
+[[bin]]
+name = "bootcamp-hard-46"
+path = "src/bin/46.rs"
+
+[[bin]]
+name = "bootcamp-hard-47"
+path = "src/bin/47.rs"
+
+[[bin]]
+name = "bootcamp-hard-48"
+path = "src/bin/48.rs"
+
+[[bin]]
+name = "bootcamp-hard-49"
+path = "src/bin/49.rs"
+
+[[bin]]
+name = "bootcamp-hard-50"
+path = "src/bin/50.rs"
+
+[[bin]]
+name = "bootcamp-hard-51"
+path = "src/bin/51.rs"
+
+[[bin]]
+name = "bootcamp-hard-52"
+path = "src/bin/52.rs"
+
+[[bin]]
+name = "bootcamp-hard-53"
+path = "src/bin/53.rs"
+
+[[bin]]
+name = "bootcamp-hard-54"
+path = "src/bin/54.rs"
+
+[[bin]]
+name = "bootcamp-hard-55"
+path = "src/bin/55.rs"
+
+[[bin]]
+name = "bootcamp-hard-56"
+path = "src/bin/56.rs"
+
+[[bin]]
+name = "bootcamp-hard-57"
+path = "src/bin/57.rs"
+
+[[bin]]
+name = "bootcamp-hard-58"
+path = "src/bin/58.rs"
+
+[[bin]]
+name = "bootcamp-hard-59"
+path = "src/bin/59.rs"
+
+[[bin]]
+name = "bootcamp-hard-60"
+path = "src/bin/60.rs"
+
+[[bin]]
+name = "bootcamp-hard-61"
+path = "src/bin/61.rs"
+
+[[bin]]
+name = "bootcamp-hard-62"
+path = "src/bin/62.rs"
+
+[[bin]]
+name = "bootcamp-hard-63"
+path = "src/bin/63.rs"
+
+[[bin]]
+name = "bootcamp-hard-64"
+path = "src/bin/64.rs"
+
+[[bin]]
+name = "bootcamp-hard-65"
+path = "src/bin/65.rs"
+
+[[bin]]
+name = "bootcamp-hard-66"
+path = "src/bin/66.rs"
+
+[[bin]]
+name = "bootcamp-hard-67"
+path = "src/bin/67.rs"
+
+[[bin]]
+name = "bootcamp-hard-68"
+path = "src/bin/68.rs"
+
+[[bin]]
+name = "bootcamp-hard-69"
+path = "src/bin/69.rs"
+
+[[bin]]
+name = "bootcamp-hard-70"
+path = "src/bin/70.rs"
+
+[[bin]]
+name = "bootcamp-hard-71"
+path = "src/bin/71.rs"
+
+[[bin]]
+name = "bootcamp-hard-72"
+path = "src/bin/72.rs"
+
+[[bin]]
+name = "bootcamp-hard-73"
+path = "src/bin/73.rs"
+
+[[bin]]
+name = "bootcamp-hard-74"
+path = "src/bin/74.rs"
+
+[[bin]]
+name = "bootcamp-hard-75"
+path = "src/bin/75.rs"
+
+[[bin]]
+name = "bootcamp-hard-76"
+path = "src/bin/76.rs"
+
+[[bin]]
+name = "bootcamp-hard-77"
+path = "src/bin/77.rs"
+
+[[bin]]
+name = "bootcamp-hard-78"
+path = "src/bin/78.rs"
+
+[[bin]]
+name = "bootcamp-hard-79"
+path = "src/bin/79.rs"
+
+[[bin]]
+name = "bootcamp-hard-80"
+path = "src/bin/80.rs"
+
+[[bin]]
+name = "bootcamp-hard-81"
+path = "src/bin/81.rs"
+
+[[bin]]
+name = "bootcamp-hard-82"
+path = "src/bin/82.rs"
+
+[[bin]]
+name = "bootcamp-hard-83"
+path = "src/bin/83.rs"
+
+[[bin]]
+name = "bootcamp-hard-84"
+path = "src/bin/84.rs"
+
+[[bin]]
+name = "bootcamp-hard-85"
+path = "src/bin/85.rs"
+
+[[bin]]
+name = "bootcamp-hard-86"
+path = "src/bin/86.rs"
+
+[[bin]]
+name = "bootcamp-hard-87"
+path = "src/bin/87.rs"
+
+[[bin]]
+name = "bootcamp-hard-88"
+path = "src/bin/88.rs"
+
+[[bin]]
+name = "bootcamp-hard-89"
+path = "src/bin/89.rs"
+
+[[bin]]
+name = "bootcamp-hard-90"
+path = "src/bin/90.rs"
+
+[[bin]]
+name = "bootcamp-hard-91"
+path = "src/bin/91.rs"
+
+[[bin]]
+name = "bootcamp-hard-92"
+path = "src/bin/92.rs"
+
+[[bin]]
+name = "bootcamp-hard-93"
+path = "src/bin/93.rs"
+
+[[bin]]
+name = "bootcamp-hard-94"
+path = "src/bin/94.rs"
+
+[[bin]]
+name = "bootcamp-hard-95"
+path = "src/bin/95.rs"
+
+[[bin]]
+name = "bootcamp-hard-96"
+path = "src/bin/96.rs"
+
+[[bin]]
+name = "bootcamp-hard-97"
+path = "src/bin/97.rs"
+
+[[bin]]
+name = "bootcamp-hard-98"
+path = "src/bin/98.rs"
+
+[[bin]]
+name = "bootcamp-hard-99"
+path = "src/bin/99.rs"
+
+[[bin]]
+name = "bootcamp-hard-100"
+path = "src/bin/100.rs"
+
+
+[dependencies]
+num = "=0.2.1"
+num-bigint = "=0.2.6"
+num-complex = "=0.2.4"
+num-integer = "=0.1.42"
+num-iter = "=0.1.40"
+num-rational = "=0.2.4"
+num-traits = "=0.2.11"
+num-derive = "=0.3.0"
+ndarray = "=0.13.0"
+nalgebra = "=0.20.0"
+alga = "=0.9.3"
+libm = "=0.2.1"
+rand = { version = "=0.7.3", features = ["small_rng"] }
+getrandom = "=0.1.14"
+rand_chacha = "=0.2.2"
+rand_core = "=0.5.1"
+rand_hc = "=0.2.0"
+rand_pcg = "=0.2.1"
+rand_distr = "=0.2.2"
+petgraph = "=0.5.0"
+indexmap = "=1.3.2"
+regex = "=1.3.6"
+lazy_static = "=1.4.0"
+ordered-float = "=1.0.2"
+ascii = "=1.0.0"
+permutohedron = "=0.2.4"
+superslice = "=1.0.0"
+itertools = "=0.9.0"
+itertools-num = "=0.1.3"
+maplit = "=1.0.2"
+either = "=1.5.3"
+im-rc = "=14.3.0"
+fixedbitset = "=0.2.0"
+bitset-fixed = "=0.1.0"
+proconio = { version = "=0.3.6", features = ["derive"] }
+text_io = "=0.1.8"
+whiteread = "=0.5.0"
+rustc-hash = "=1.1.0"
+smallvec = "=1.2.0"
+
+[dev-dependencies]
