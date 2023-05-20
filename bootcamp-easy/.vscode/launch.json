@@ -1,0 +1,3708 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-1'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-1",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-1'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-1",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-2'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-2",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-2",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-2'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-2",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-2",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-3'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-3",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-3",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-3'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-3",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-3",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-4'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-4",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-4",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-4'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-4",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-4",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-5'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-5",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-5",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-5'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-5",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-5",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-6'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-6",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-6",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-6'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-6",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-6",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-7'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-7",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-7",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-7'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-7",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-7",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-8'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-8",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-8",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-8'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-8",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-8",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-9'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-9",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-9",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-9'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-9",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-9",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-10'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-10",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-10",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-10'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-10",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-10",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-11'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-11",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-11",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-11'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-11",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-11",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-12'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-12",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-12",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-12'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-12",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-12",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-13'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-13",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-13",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-13'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-13",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-13",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-14'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-14",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-14",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-14'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-14",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-14",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-15'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-15",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-15",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-15'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-15",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-15",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-16'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-16",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-16",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-16'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-16",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-16",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-17'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-17",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-17",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-17'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-17",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-17",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-18'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-18",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-18",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-18'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-18",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-18",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-19'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-19",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-19",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-19'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-19",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-19",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-20'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-20",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-20",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-20'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-20",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-20",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-21'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-21",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-21",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-21'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-21",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-21",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-22'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-22",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-22",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-22'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-22",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-22",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-23'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-23",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-23",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-23'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-23",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-23",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-24'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-24",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-24",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-24'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-24",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-24",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-25'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-25",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-25",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-25'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-25",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-25",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-26'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-26",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-26",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-26'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-26",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-26",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-27'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-27",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-27",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-27'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-27",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-27",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-28'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-28",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-28",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-28'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-28",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-28",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-29'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-29",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-29",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-29'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-29",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-29",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-30'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-30",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-30",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-30'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-30",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-30",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-31'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-31",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-31",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-31'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-31",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-31",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-32'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-32",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-32",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-32'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-32",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-32",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-33'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-33",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-33",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-33'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-33",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-33",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-34'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-34",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-34",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-34'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-34",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-34",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-35'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-35",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-35",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-35'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-35",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-35",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-36'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-36",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-36",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-36'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-36",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-36",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-37'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-37",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-37",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-37'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-37",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-37",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-38'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-38",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-38",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-38'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-38",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-38",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-39'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-39",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-39",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-39'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-39",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-39",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-40'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-40",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-40",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-40'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-40",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-40",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-41'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-41",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-41",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-41'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-41",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-41",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-42'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-42",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-42",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-42'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-42",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-42",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-43'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-43",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-43",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-43'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-43",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-43",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-44'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-44",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-44",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-44'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-44",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-44",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-45'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-45",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-45",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-45'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-45",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-45",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-46'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-46",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-46",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-46'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-46",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-46",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-47'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-47",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-47",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-47'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-47",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-47",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-48'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-48",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-48",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-48'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-48",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-48",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-49'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-49",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-49",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-49'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-49",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-49",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-50'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-50",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-50",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-50'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-50",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-50",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-51'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-51",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-51",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-51'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-51",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-51",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-52'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-52",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-52",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-52'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-52",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-52",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-53'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-53",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-53",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-53'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-53",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-53",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-54'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-54",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-54",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-54'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-54",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-54",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-55'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-55",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-55",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-55'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-55",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-55",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-56'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-56",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-56",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-56'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-56",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-56",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-57'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-57",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-57",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-57'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-57",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-57",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-58'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-58",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-58",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-58'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-58",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-58",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-59'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-59",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-59",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-59'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-59",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-59",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-60'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-60",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-60",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-60'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-60",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-60",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-61'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-61",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-61",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-61'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-61",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-61",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-62'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-62",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-62",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-62'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-62",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-62",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-63'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-63",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-63",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-63'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-63",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-63",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-64'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-64",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-64",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-64'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-64",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-64",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-65'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-65",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-65",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-65'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-65",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-65",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-66'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-66",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-66",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-66'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-66",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-66",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-67'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-67",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-67",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-67'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-67",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-67",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-68'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-68",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-68",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-68'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-68",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-68",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-69'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-69",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-69",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-69'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-69",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-69",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-70'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-70",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-70",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-70'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-70",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-70",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-71'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-71",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-71",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-71'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-71",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-71",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-72'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-72",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-72",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-72'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-72",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-72",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-73'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-73",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-73",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-73'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-73",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-73",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-74'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-74",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-74",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-74'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-74",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-74",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-75'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-75",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-75",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-75'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-75",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-75",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-76'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-76",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-76",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-76'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-76",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-76",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-77'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-77",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-77",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-77'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-77",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-77",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-78'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-78",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-78",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-78'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-78",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-78",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-79'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-79",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-79",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-79'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-79",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-79",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-80'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-80",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-80",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-80'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-80",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-80",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-81'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-81",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-81",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-81'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-81",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-81",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-82'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-82",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-82",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-82'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-82",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-82",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-83'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-83",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-83",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-83'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-83",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-83",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-84'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-84",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-84",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-84'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-84",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-84",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-85'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-85",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-85",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-85'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-85",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-85",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-86'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-86",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-86",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-86'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-86",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-86",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-87'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-87",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-87",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-87'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-87",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-87",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-88'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-88",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-88",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-88'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-88",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-88",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-89'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-89",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-89",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-89'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-89",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-89",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-90'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-90",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-90",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-90'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-90",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-90",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-91'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-91",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-91",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-91'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-91",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-91",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-92'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-92",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-92",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-92'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-92",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-92",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-93'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-93",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-93",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-93'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-93",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-93",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-94'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-94",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-94",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-94'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-94",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-94",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-95'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-95",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-95",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-95'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-95",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-95",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-96'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-96",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-96",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-96'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-96",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-96",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-97'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-97",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-97",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-97'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-97",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-97",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-98'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-98",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-98",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-98'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-98",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-98",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-99'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-99",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-99",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-99'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-99",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-99",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bootcamp-easy-100'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bootcamp-easy-100",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-100",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bootcamp-easy-100'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bootcamp-easy-100",
+                    "--package=bootcamp-easy"
+                ],
+                "filter": {
+                    "name": "bootcamp-easy-100",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
