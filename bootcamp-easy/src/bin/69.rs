@@ -1,4 +1,7 @@
-use proconio::input;
+use proconio::{input, marker::Chars};
 fn main() {
-    input! {}
+    ans1();
+}
+fn ans1() {
+    input! {s: Chars}
 }
